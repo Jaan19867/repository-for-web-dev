@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My first Web Page</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+    
+
+    <p>How are you</p>
+    <p>Lorem, ipsum dolor. </p>
+    <!-- Example of absolute link -->
+    <a href="https://codewithharry.com">Click here to go to Harrys Websit</a>
+    <!-- Example of relative link -->
+    <a href="/about.html">Go to about </a>
+    <hr>
+     <!-- <img src="https://unsplash.com/photos/apDK2uqrqug">
+<img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" alt="Human Image"> -->
+<img src="/photo-1503023345310-bd7c1de61c7d.jpg" alt="Human Image" width="121px"> <hr>
+
+<!-- bolf italic and underline tags -->
+<b> This is bold</b> <br>
+<i> This is Italic</i><br>
+<br><br>
+<u>  This is Underline</u>
+<big> This is Big</big>
+<small> This is small</small>
+<!-- Subscript and superscript -->
+<p>CO <sub>2</sub><br>
+    <p>a <sup>2</sup> + bx +c
+    <br>
+<pre>
+
+func AuthRequired(handler http.HandlerFunc) http.HandlerFunc {
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    return func(w http.ResponseWriter, r *http.Request) {
+         if len(r.Header.Get("X-API-Key")) == 0 {
+              http.Error(w, "Specify X-API-Key header", http.StatusUnauthorized)
+              return
+         }
+         handler(w, r)
+    }
+}</pre>
+
+
+
+
+</body>
+</html>

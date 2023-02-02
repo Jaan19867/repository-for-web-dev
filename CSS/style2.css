@@ -1,0 +1,9 @@
+.green{   background: rgb(0, 109, 128)
+    ;  }
+
+.red{  background: rgb(0, 255, 174)
+    ;  height: 400px; }
+
+    *{ margin: 0
+        ;
+    padding: 0;}
